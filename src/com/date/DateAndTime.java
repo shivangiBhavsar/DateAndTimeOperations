@@ -29,8 +29,6 @@ public class DateAndTime {
 		//get current date
 		 Date d = new Date();
 		 System.out.println("crurrent date: "+d.toString());
-		 System.out.println("crurrent date: "+d.toString());
-		 
 		 Calendar now = Calendar.getInstance();
 		    System.out.println();
 		    System.out.println("Current full date and time is : " + (now.get(Calendar.MONTH) + 1) + "-"
